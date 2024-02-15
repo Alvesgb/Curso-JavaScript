@@ -11,29 +11,53 @@
         body{
             font-family: Arial, Helvetica, sans-serif;
         }
-        div{
+        div#area1{
             text-align: center;
             padding: 70px;
             font-size: 3em;
             margin: auto;
             width: 300px;
             color: white;
-            background-color: rgb(0, 110, 255);
+            background-color: rgb(255, 166, 0);
+            margin-bottom: 100px;
+        }
+        div#area2{
+            text-align: center;
+            padding: 70px;
+            font-size: 2em;
+            margin: auto;
+            width: 300px;
+            color: white;
+            background-color: rgb(255, 166, 0);
         }
     </style>
 </head>
 <body>
-    <div id="area" onclick="clicar()" onmousedown="pressionar()">
-        INTERAJA
+    <div id="area1" onmousedown="pressionar()" onmouseup="soltar()">
+        Interaja!
+    </div>
+    <div id="area2" onmouseenter="entrou()" onmouseleave="saiu()">
+        Passe o mouse!
     </div>
     <script>
-        function clicar(){
-            var a = document.getElementById('area')
-            a.style.backgroundColor = 'red'
-            a.innerText = 'Clicou!'
-        }
+        var a1 = document.getElementById('area1')
+        var a2 = document.getElementById('area2')
         function pressionar(){
-            var 
+            a1.style.backgroundColor = 'red'
+            a1.innerText = 'Pressionou!'
+        }
+        function soltar(){
+            a1.style.backgroundColor = 'blue'
+            a1.innerText = 'Soltou!'
+        }
+        function entrou(){
+            a2.style.backgroundColor = 'blue'
+            a2.innerText = 'Entrou!'
+        }
+        function saiu(){
+            a2.style.backgroundColor = 'red'
+            a2.innerText = 'Saiu!'
+            
         }
     </script>
 </body>

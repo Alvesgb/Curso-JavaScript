@@ -1,0 +1,45 @@
+@charset "UTF-8";
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgba(161, 161, 161, 0.7);
+    padding-top: 100px;
+}
+main{
+    margin: auto;
+    width: 400px;
+    padding: 50px;
+    text-align: center;
+    color: white;
+    background-color: rgb(8, 72, 114);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.600);
+    border-radius: 25px;
+}
+main > h1{
+    padding-bottom: 30px;
+}
+.txt{
+    color: black;
+    width: 50px;
+    height: 28px;
+    font-size: 1em;
+    text-align: center;
+}
+#soma{
+    margin: 10px;
+    background-color: rgb(36, 135, 201);
+    border: 1px solid rgba(255, 255, 255, 0.300);
+    padding: 5px;
+    font-size: 1em;
+    color: white;
+    font-weight: bold;
+}
+span{
+    color: black;
+    padding: 7px 20px;
+    background-color: white;
+    font-weight: bold;
+}
