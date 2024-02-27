@@ -1,0 +1,45 @@
+@charset "UTF-8";
+body{
+    background-color: rgb(216, 114, 131);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+header{
+    color: white;
+}
+main{
+    background-color: white;
+    width: 300px;
+    height: 350px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.300);
+    margin-bottom: 10px;
+}
+#inum{
+    width: 80px;
+    padding: 5px;
+}
+#botao:hover{
+    background-color: rgba(0, 0, 0, 0.100);
+}
+#botao{
+    margin-bottom: 20px;
+    color: black;
+    background-color: white;   
+}
+#itab{
+    background-color: white;
+    color: black;
+    width: 200px;
+    padding: 10px;
+    margin: auto;
+    font-size: 1em;
+    overflow: hidden;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.700);
+}
