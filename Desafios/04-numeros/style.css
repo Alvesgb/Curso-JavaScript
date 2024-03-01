@@ -1,0 +1,74 @@
+@charset "UTF-8";
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: rgb(138, 43, 226);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-align: center;
+}
+header{
+    color: white;   
+    padding: 30px;
+    text-align: center;
+}
+main{
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.500);
+    width: 600px;
+    height: 350px;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    text-align: left;
+    position: relative;
+}
+main > p{
+    margin: 20px;
+}
+.botao{
+    color: black;
+    width: 70px;
+    height: 40px;
+}
+#fnum{
+    width: 70px;
+    height: 36px;
+    color: black;
+    text-align: center;
+    width: 140px;
+}
+#flista{
+    position: absolute;
+    top: 30%;
+    left: 31%;
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+    color: black;
+    font-size: 1em;
+    overflow: hidden;
+}
+div#resultado{
+    position: absolute;
+    top: 30%;
+    left: 31%;
+    border: 1px solid black;
+    padding: 10px;
+    width: 278px;
+    height: 178px;
+    text-align: left;
+}
+div#resultado > p{
+    margin:10px;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
