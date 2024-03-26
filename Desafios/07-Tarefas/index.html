@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefas</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <main class="container">
+        <h1>Salve a sua primeira tarefa:</h1>
+        <div id="add-tarefa">
+            <input type="text" id="titulo-tarefa" autocomplete="off" placeholder="O que você vai fazer?">
+            <button id="btn-add" type="submit">
+                <ion-icon name="add-outline"></ion-icon>
+            </button>
+        </div>
+        <h1>Estas são as suas tarefas:</h1>
+        <ul id="lista-tarefa">
+            <li class="template hide">
+                <span id="tarefa-adicionada">aaaaaaaa</span>
+                <ion-icon class="done-btn" name="checkmark-outline"></ion-icon>
+                <ion-icon class="remove-btn" name="close-outline"></ion-icon>
+            </li>
+        </ul>
+    </main>
+    <script src="assets/javascript/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
